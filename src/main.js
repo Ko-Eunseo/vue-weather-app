@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+import "@/styles/main.css";
+// @는 src라는 뜻
+
+createApp(App).mount("#app");
